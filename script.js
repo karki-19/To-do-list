@@ -13,3 +13,4 @@ function addTask(){
     span.innerHTML = 
 }
 }
+// Code now 
