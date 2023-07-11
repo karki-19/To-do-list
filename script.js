@@ -28,7 +28,6 @@ const generateHtml = () => {
 
     ul.innerHTML = html;
 };
-
 //add todos
 addForm.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -67,6 +66,9 @@ ul.addEventListener("click", (event) => {
  
         localStorage.setItem("localtask",JSON.stringify(taskObj));
     }
+    console.log(event.target.style )
+    //event.target.style.textDecoration ="lineThrough"
+    event.target.parentElement.classList.toggle("selected")
 });
 
 //filter todo

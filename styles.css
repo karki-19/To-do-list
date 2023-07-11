@@ -35,3 +35,11 @@ input[type=text]:focus{
 #nav{
     background-color: #96b4cf !important;
 }
+
+ul{
+    cursor: pointer;
+}
+
+.selected{
+    background: red !important;
+}
